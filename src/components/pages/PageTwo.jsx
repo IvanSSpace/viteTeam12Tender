@@ -1,6 +1,6 @@
 const PageTwo = () => {
   return (
-    <div>PageTwo</div>
+    <div>Вторая после главной</div>
   )
 }
 

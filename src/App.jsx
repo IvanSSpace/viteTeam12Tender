@@ -3,10 +3,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainPage from './components/pages/MainPage';
 import PageTwo from './components/pages/PageTwo';
 import Layout from './components/pages/Layout';
-import SelectRegions from './components/pages/SelectRegions';
-import AddItemsList from './components/pages/AddItemsList';
+import SelectRegions from './components/pages/SelectRegions1';
+import AddItemsList from './components/pages/AddItemsList2';
 import SettingRecommendations from './components/pages/SettingRecommendations';
-import SelectGrown from './components/pages/SelectGrown';
+import SelectGrown from './components/pages/SelectGrown3';
 
 
 

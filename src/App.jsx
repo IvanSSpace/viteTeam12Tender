@@ -1,13 +1,21 @@
-import './App.css'
-import { Button } from './components/ui/button'
+// App.jsx
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import PageOne from './components/pages/pageOne/PageOne';
+import PageTwo from './components/pages/pageTwo/PageTwo';
+import MainPage from './components/MainPage';
 
 function App() {
-
   return (
-    <>
-      <Button>Hello Ivan</Button>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+          <Route path="/" element={<MainPage />} >
+            <Route index element={<div>No page is selected.</div> } />
+            <Route path="one" element={<PageOne />} />
+            <Route path="two" element={<PageTwo />} />
+          </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

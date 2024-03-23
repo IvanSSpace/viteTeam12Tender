@@ -7,7 +7,7 @@ const MainPage = () => {
       <nav>
         <ul>
           <li>
-            <Link to='/one'>Page One</Link>
+            <Link to='/'>Главная</Link>
           </li>
           <li>
             <Link to='/two'>Page Two</Link>

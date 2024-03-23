@@ -1,6 +1,6 @@
 const PageOne = () => {
   return (
-    <div>PageOne</div>
+    <div>Контент главной страницы</div>
   )
 }
 

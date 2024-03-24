@@ -1,7 +1,7 @@
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainPage from './components/pages/MainPage';
-import PageTwo from './components/pages/PageTwo';
+import Inception from './components/pages/Inception0';
 import Layout from './components/pages/Layout';
 import SelectRegions from './components/pages/SelectRegions1';
 import AddItemsList from './components/pages/AddItemsList2';
@@ -20,7 +20,7 @@ function App() {
           <Route path="/" element={<Layout />} >
             {/* <Route index element={<div>No page is selected.</div> } /> */}
             <Route path="/" element={<MainPage />} />
-            <Route path="two" element={<PageTwo />} />
+            <Route path="inseption" element={<Inception />} />
             <Route path="selectRegions" element={<SelectRegions />} />
             <Route path="selectGrown" element={<SelectGrown />} />
             <Route path="addItemsList" element={<AddItemsList />} />

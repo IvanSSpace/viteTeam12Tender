@@ -15,8 +15,8 @@ const Layout = () => {
             </Link>
           </li>
           <li>
-            <Link to="/two" className={`text-purple-600 hover:text-blue-600 ${location.pathname === '/two' ? 'text-red-600' : ''}`}>
-              Two
+            <Link to="/inseption" className={`text-purple-600 hover:text-blue-600 ${location.pathname === '/two' ? 'text-red-600' : ''}`}>
+            Начало
             </Link>
           </li>
           <li>

@@ -7,6 +7,8 @@ import SelectRegions from './components/pages/SelectRegions1';
 import AddItemsList from './components/pages/AddItemsList2';
 import SettingRecommendations from './components/pages/SettingRecommendations';
 import SelectGrown from './components/pages/SelectGrown3';
+import Login from './components/pages/Login';
+import Signup from './components/pages/Signup';
 
 
 
@@ -22,6 +24,9 @@ function App() {
             <Route path="selectRegions" element={<SelectRegions />} />
             <Route path="selectGrown" element={<SelectGrown />} />
             <Route path="addItemsList" element={<AddItemsList />} />
+            <Route path="settingRecommendations" element={<SettingRecommendations />} />
+            <Route path="login" element={<Login />} />
+            <Route path="signup" element={<Signup />} />
             <Route path="settingRecommendations" element={<SettingRecommendations />} />
             <Route path="*" element={<div>No page is selected.</div> } />
           </Route>

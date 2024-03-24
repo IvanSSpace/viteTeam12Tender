@@ -39,6 +39,16 @@ const Layout = () => {
               Рекомендации настройки
             </Link>
           </li>
+          <li>
+            <Link to="/login" className={`text-purple-600 hover:text-blue-600 ${location.pathname === '/selectGrown' ? 'text-red-600' : ''}`}>
+              loginPage
+            </Link>
+          </li>
+          <li>
+            <Link to="/signup" className={`text-purple-600 hover:text-blue-600 ${location.pathname === '/selectGrown' ? 'text-red-600' : ''}`}>
+              signupPage
+            </Link>
+          </li>
         </ul>
       </nav>
       <hr />

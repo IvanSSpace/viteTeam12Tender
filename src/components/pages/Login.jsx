@@ -1,8 +1,12 @@
 import { useForm } from "react-hook-form"
 import { Button } from "../ui/button"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
+import { useStore } from "@/stores/stores"
 
 const Login = () => {
+const { setEmail } = useStore();
+const navigate = useNavigate();
+
   const {
     register,
     handleSubmit,
@@ -11,9 +15,13 @@ const Login = () => {
 
   const onSubmit = (data) => {
     console.log(data)
-    // тут заносим значение в zustand
+    // тут будет отправка на бек и получение токена
+    localStorage.setItem('email', data.email);
+    setEmail(data.email)
+    navigate('/inseption')
+    // тут заносим значение в zustand isLoggined и localStorage
     // тут редиректим пользователся на страницу inseption (потом будем иметь задержку если пользователь зарегенстрирован)
-    
+
   }
 
   // console.log(watch("example")) // watch input value by passing the name of it

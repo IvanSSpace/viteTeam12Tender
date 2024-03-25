@@ -4,6 +4,17 @@ import BaseContainer from "../helpComponents/BaseContainer";
 const Layout = () => {
   // Получаем текущий путь с помощью useLocation
   const location = useLocation();
+  // const navigate = useNavigate();
+
+  // const isLogined = () => {
+  //   return localStorage.user;
+  // }
+
+  // const isLogined = !!localStorage.email === false;
+
+  // if (isLogined) {
+  //   navigate('/login')
+  // }
 
   return (
     <>

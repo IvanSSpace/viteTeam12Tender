@@ -38,7 +38,7 @@ const Login = () => {
       </form>
       <div className="mt-[32px] flex flex-row justify-center">
       <p className="text-greylight pr-1">Нет аккаунта? </p>
-      <Link to="/login" className={`text-white-600 text-lightblue hover:text-blue-600 ${location.pathname === '/selectGrown' ? 'text-red-600' : ''}`}>
+      <Link to="/signup" className={`text-white-600 text-lightblue hover:text-blue-600 ${location.pathname === '/selectGrown' ? 'text-red-600' : ''}`}>
       Зарегистрироваться
       </Link>
       </div>
